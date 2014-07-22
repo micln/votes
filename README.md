@@ -9,6 +9,7 @@ hehe
   
 发言
 ```
+ok = 0;
 setInterval( '$("#commentContent").val("都抢了"+ String(Math.floor(Math.random()*100)) + "次了 什么都抢不到啊");$("#sentBtn").click();console.info("ok = ",++ok)',1111);
 ```
 
